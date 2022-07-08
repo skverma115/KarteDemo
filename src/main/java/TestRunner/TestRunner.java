@@ -35,7 +35,7 @@ public class TestRunner {
     }
     public static String getTime()
     {
-    	DateFormat dateFormat = new SimpleDateFormat("HH_mm_ss");
+    	DateFormat dateFormat = new SimpleDateFormat("YYYMMdd_HHmmss");
 		Date date = new Date();
 		String s = dateFormat.format(date);
 		return s;
