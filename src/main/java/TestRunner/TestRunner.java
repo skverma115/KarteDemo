@@ -8,8 +8,11 @@ import org.apache.commons.io.FileUtils;
 import org.junit.jupiter.api.Test;
 
 import java.io.File;
+import java.text.DateFormat;
+import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Collection;
+import java.util.Date;
 import java.util.List;
 import static org.junit.jupiter.api.Assertions.*;
 
@@ -26,8 +29,17 @@ public class TestRunner {
         Collection<File> jsonFiles = FileUtils.listFiles(new File(karateOutputPath), new String[] {"json"}, true);
         final List<String> jsonPaths = new ArrayList<String>(jsonFiles.size());
         jsonFiles.forEach(file -> jsonPaths.add(file.getAbsolutePath()));
-        Configuration config = new Configuration(new File("target"), "dummy");
+        Configuration config = new Configuration(new File("Report/Karate_Cucumber_HTML_Report_" + getTime()), "dummy");
         ReportBuilder reportBuilder = new ReportBuilder(jsonPaths, config);
         reportBuilder.generateReports();
     }
+    public static String getTime()
+    {
+    	DateFormat dateFormat = new SimpleDateFormat("HH_mm_ss");
+		Date date = new Date();
+		String s = dateFormat.format(date);
+		return s;
+    }
+    
+   
 }
