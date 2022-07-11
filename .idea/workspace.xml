@@ -1,7 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="784952be-4971-4379-9808-9797e7afebfb" name="Default Changelist" comment="" />
+    <list default="true" id="784952be-4971-4379-9808-9797e7afebfb" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/TestRunner/TestRunner.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/TestRunner/TestRunner.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/karate-reports/Features.Deleteuser.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/karate-reports/Features.Deleteuser.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/karate-reports/Features.Deleteuser.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/karate-reports/Features.Deleteuser.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/karate-reports/Features.Deleteuser.karate-json.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/karate-reports/Features.Deleteuser.karate-json.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/karate-reports/Features.PostCallDemo.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/karate-reports/Features.PostCallDemo.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/karate-reports/Features.PostCallDemo.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/karate-reports/Features.PostCallDemo.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/karate-reports/Features.PostCallDemo.karate-json.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/karate-reports/Features.PostCallDemo.karate-json.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/karate-reports/Features.Sample.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/karate-reports/Features.Sample.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/karate-reports/Features.Sample.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/karate-reports/Features.Sample.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/karate-reports/Features.Sample.karate-json.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/karate-reports/Features.Sample.karate-json.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/karate-reports/Features.Sample1.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/karate-reports/Features.Sample1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/karate-reports/Features.Sample1.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/karate-reports/Features.Sample1.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/karate-reports/Features.Sample1.karate-json.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/karate-reports/Features.Sample1.karate-json.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/karate-reports/Features.getmethodExample.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/karate-reports/Features.getmethodExample.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/karate-reports/Features.getmethodExample.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/karate-reports/Features.getmethodExample.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/karate-reports/Features.getmethodExample.karate-json.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/karate-reports/Features.getmethodExample.karate-json.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/karate-reports/Features.getwithquery.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/karate-reports/Features.getwithquery.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/karate-reports/Features.getwithquery.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/karate-reports/Features.getwithquery.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/karate-reports/Features.getwithquery.karate-json.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/karate-reports/Features.getwithquery.karate-json.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/karate-reports/Features.putcallupdate.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/karate-reports/Features.putcallupdate.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/karate-reports/Features.putcallupdate.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/karate-reports/Features.putcallupdate.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/karate-reports/Features.putcallupdate.karate-json.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/karate-reports/Features.putcallupdate.karate-json.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/karate-reports/Features.token.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/karate-reports/Features.token.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/karate-reports/Features.token.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/karate-reports/Features.token.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/karate-reports/Features.token.karate-json.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/karate-reports/Features.token.karate-json.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/karate-reports/karate-summary-json.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/karate-reports/karate-summary-json.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/karate-reports/karate-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/karate-reports/karate-summary.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/karate-reports/karate-tags.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/karate-reports/karate-tags.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/karate-reports/karate-timeline.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/karate-reports/karate-timeline.html" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,8 +47,12 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="2BbVwxSE4xC3KDrRIFPapNDugwM" />
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources/Features" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
@@ -126,5 +162,16 @@
       <updated>1657175013697</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

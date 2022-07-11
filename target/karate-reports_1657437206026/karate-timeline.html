@@ -1,0 +1,32 @@
+<!DOCTYPE HTML>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <title>Karate Timeline</title>
+    <style>
+      body, html { font-family: arial, sans-serif; font-size: 11pt; }
+      #visualization { box-sizing: border-box; width: 100%; height: 300px; }
+      .vis-item.failed { background-color: #F2928C; }
+      .page-heading { padding: 0.5em; margin-bottom: 0.5em; background-color: lightcyan; border: 1px solid gray; }
+    </style>
+    <script src="res/vis.min.js"></script>
+    <link href="res/vis.min.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <div class="page-heading">
+      <a href="karate-summary.html">Summary</a>
+    </div>     
+    <div id="visualization"></div>
+    <script>
+var groups = [{"content":"pool-1-thread-1","id":1},{"content":"pool-1-thread-3","id":2},{"content":"pool-1-thread-2","id":3},{"content":"pool-1-thread-7","id":4},{"content":"pool-1-thread-4","id":5},{"content":"pool-1-thread-5","id":6},{"content":"pool-1-thread-8","id":7},{"content":"pool-1-thread-9","id":8},{"content":"pool-1-thread-6","id":9}];
+var items = [{"id":1,"group":1,"content":"Features\/Deleteuser[1:31]","start":1657287833228,"end":1657287837245,"title":"Features\/Deleteuser[1:31] 19:13:53.228-19:13:57.245 Create user using given data"},{"id":2,"group":2,"content":"Features\/getwithquery[1:3]","start":1657287833228,"end":1657287836265,"title":"Features\/getwithquery[1:3] 19:13:53.228-19:13:56.265 Get Details using get method"},{"id":3,"group":3,"content":"Features\/getmethodExample[1:3]","start":1657287833228,"end":1657287836245,"title":"Features\/getmethodExample[1:3] 19:13:53.228-19:13:56.245 Get Details using get method"},{"id":4,"group":4,"content":"Features\/token[1:3]","start":1657287833772,"end":1657287836215,"title":"Features\/token[1:3] 19:13:53.772-19:13:56.215 Get Details using get method"},{"id":5,"group":5,"content":"Features\/PostCallDemo[1:31]","start":1657287833228,"end":1657287836314,"title":"Features\/PostCallDemo[1:31] 19:13:53.228-19:13:56.314 Create user using given data"},{"id":6,"group":6,"content":"Features\/putcallupdate[1:31]","start":1657287833228,"end":1657287836643,"title":"Features\/putcallupdate[1:31] 19:13:53.228-19:13:56.643 Create user using given data"},{"id":7,"group":7,"content":"Features\/Sample1[1:2]","start":1657287833229,"end":1657287833786,"title":"Features\/Sample1[1:2] 19:13:53.229-19:13:53.786 Play with json"},{"id":8,"group":8,"content":"Features\/Sample1[2:24]","start":1657287833228,"end":1657287833755,"title":"Features\/Sample1[2:24] 19:13:53.228-19:13:53.755 Complex json example"},{"id":9,"group":9,"content":"Features\/Sample[1:3]","start":1657287833228,"end":1657287833763,"title":"Features\/Sample[1:3] 19:13:53.228-19:13:53.763 Hello World Scenario"},{"id":10,"group":4,"content":"Features\/Sample[2:9]","start":1657287833229,"end":1657287833757,"title":"Features\/Sample[2:9] 19:13:53.229-19:13:53.757 Declare and print variable"}];
+</script>
+    <script>
+      var container = document.getElementById('visualization');
+      var timeline = new vis.Timeline(container);
+      timeline.setOptions({groupOrder: 'content'});
+      timeline.setGroups(new vis.DataSet(groups));
+      timeline.setItems(new vis.DataSet(items));
+    </script>
+  </body>
+</html>
