@@ -1,5 +1,5 @@
 Feature: get Method Json Example
-
+	@RegressionTest
 Scenario: Get Details using get method 
 	
 	* def token = '4cf5a3adc501a506f811309e96c2fe51cb9eac17ff89a755441ed1913f162f87'

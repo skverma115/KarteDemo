@@ -1,6 +1,6 @@
 Feature: get Method Json Example
-
-Scenario: Get Details using get method 
+  @SmokeTest
+  Scenario: Get Details using get method
 
 Given url 'https://gorest.co.in/public/v2/posts/'
 And path '100'

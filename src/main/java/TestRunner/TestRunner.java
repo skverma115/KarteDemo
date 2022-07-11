@@ -18,11 +18,15 @@ import static org.junit.jupiter.api.Assertions.*;
 
 
 public class TestRunner {
-
+    @org.testng.annotations.Test
+    public void runTest()
+    {
+        TestRunner TR = new TestRunner();
+        TR.testParallel();
+    }
   @Test
     public void testParallel() {
-        System.out.println("Started");
-        Results results = Runner.path("classpath:Features/").parallel(1);
+        Results results = Runner.path("classpath:Features/").outputCucumberJson(true).tags("@SmokeTest, @RegressionTest").parallel(9);
         assertEquals(0, results.getFailCount(), results.getErrorMessages());
         generateReport(results.getReportDir());
     }

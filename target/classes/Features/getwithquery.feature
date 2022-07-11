@@ -1,6 +1,6 @@
 Feature: get Method Json Example
-
-Scenario: Get Details using get method 
+  @SmokeTest @RegressionTest
+  Scenario: Get Details using get method
 
 * def query = {status : 'active' , gender : 'male' }
 Given url 'https://gorest.co.in/public/v1/users/'

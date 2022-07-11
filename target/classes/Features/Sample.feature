@@ -5,7 +5,7 @@ Scenario: Hello World Scenario
 * print 'Hello World' 
 * print 'Hello Sumit Kumar Verma'
 
-
+	@SmokeTest
 Scenario: Declare and print variable
 	
 	* def balance = 20

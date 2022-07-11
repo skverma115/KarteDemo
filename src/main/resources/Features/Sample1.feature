@@ -1,4 +1,6 @@
 Feature: Json Object Example
+
+  @AdhocTest
 Scenario: Play with json 
 
 * def jsonObject =
