@@ -18,10 +18,11 @@ import static org.junit.jupiter.api.Assertions.*;
 
 
 public class TestRunner {
+
   @Test
     public void testParallel() {
         System.out.println("Started");
-        Results results = Runner.path("classpath:Features/").outputCucumberJson(true).parallel(9);
+        Results results = Runner.path("classpath:Features/").parallel(1);
         assertEquals(0, results.getFailCount(), results.getErrorMessages());
         generateReport(results.getReportDir());
     }

@@ -6,8 +6,8 @@ public class TestNGRunner {
 	@Test
 	public void runTest()
 	{
-		TestRunner testrunner = new TestRunner();
-		testrunner.testParallel();
+		TestRunner TR = new TestRunner();
+		TR.testParallel();
 	}
 
 }

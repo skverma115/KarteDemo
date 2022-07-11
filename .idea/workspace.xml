@@ -2,8 +2,107 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="784952be-4971-4379-9808-9797e7afebfb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Report/Karate_Cucumber_HTML_Report_20220711_141121/cucumber-html-reports/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Report/Karate_Cucumber_HTML_Report_20220711_141121/cucumber-html-reports/css/cucumber.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Report/Karate_Cucumber_HTML_Report_20220711_141121/cucumber-html-reports/css/font-awesome.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Report/Karate_Cucumber_HTML_Report_20220711_141121/cucumber-html-reports/fonts/FontAwesome.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Report/Karate_Cucumber_HTML_Report_20220711_141121/cucumber-html-reports/fonts/fontawesome-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Report/Karate_Cucumber_HTML_Report_20220711_141121/cucumber-html-reports/fonts/fontawesome-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Report/Karate_Cucumber_HTML_Report_20220711_141121/cucumber-html-reports/fonts/fontawesome-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Report/Karate_Cucumber_HTML_Report_20220711_141121/cucumber-html-reports/fonts/fontawesome-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Report/Karate_Cucumber_HTML_Report_20220711_141121/cucumber-html-reports/fonts/fontawesome-webfont.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Report/Karate_Cucumber_HTML_Report_20220711_141121/cucumber-html-reports/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Report/Karate_Cucumber_HTML_Report_20220711_141121/cucumber-html-reports/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Report/Karate_Cucumber_HTML_Report_20220711_141121/cucumber-html-reports/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Report/Karate_Cucumber_HTML_Report_20220711_141121/cucumber-html-reports/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Report/Karate_Cucumber_HTML_Report_20220711_141121/cucumber-html-reports/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Report/Karate_Cucumber_HTML_Report_20220711_141121/cucumber-html-reports/images/favicon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Report/Karate_Cucumber_HTML_Report_20220711_141121/cucumber-html-reports/js/Chart.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Report/Karate_Cucumber_HTML_Report_20220711_141121/cucumber-html-reports/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Report/Karate_Cucumber_HTML_Report_20220711_141121/cucumber-html-reports/js/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Report/Karate_Cucumber_HTML_Report_20220711_141121/cucumber-html-reports/js/jquery.tablesorter.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Report/Karate_Cucumber_HTML_Report_20220711_141121/cucumber-html-reports/js/moment.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Report/Karate_Cucumber_HTML_Report_20220711_141121/cucumber-html-reports/overview-failures.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Report/Karate_Cucumber_HTML_Report_20220711_141121/cucumber-html-reports/overview-features.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Report/Karate_Cucumber_HTML_Report_20220711_141121/cucumber-html-reports/overview-steps.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Report/Karate_Cucumber_HTML_Report_20220711_141121/cucumber-html-reports/overview-tags.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Report/Karate_Cucumber_HTML_Report_20220711_141121/cucumber-html-reports/report-feature_Features-Deleteuser-feature.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Report/Karate_Cucumber_HTML_Report_20220711_141121/cucumber-html-reports/report-feature_Features-PostCallDemo-feature_3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Report/Karate_Cucumber_HTML_Report_20220711_141121/cucumber-html-reports/report-feature_Features-Sample-feature_5.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Report/Karate_Cucumber_HTML_Report_20220711_141121/cucumber-html-reports/report-feature_Features-Sample1-feature_6.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Report/Karate_Cucumber_HTML_Report_20220711_141121/cucumber-html-reports/report-feature_Features-getmethodExample-feature_1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Report/Karate_Cucumber_HTML_Report_20220711_141121/cucumber-html-reports/report-feature_Features-getwithquery-feature_2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Report/Karate_Cucumber_HTML_Report_20220711_141121/cucumber-html-reports/report-feature_Features-putcallupdate-feature_4.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Report/Karate_Cucumber_HTML_Report_20220711_141121/cucumber-html-reports/report-feature_Features-token-feature_7.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Report/Karate_Cucumber_HTML_Report_20220711_141436/cucumber-html-reports/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Report/Karate_Cucumber_HTML_Report_20220711_141436/cucumber-html-reports/css/cucumber.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Report/Karate_Cucumber_HTML_Report_20220711_141436/cucumber-html-reports/css/font-awesome.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Report/Karate_Cucumber_HTML_Report_20220711_141436/cucumber-html-reports/fonts/FontAwesome.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Report/Karate_Cucumber_HTML_Report_20220711_141436/cucumber-html-reports/fonts/fontawesome-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Report/Karate_Cucumber_HTML_Report_20220711_141436/cucumber-html-reports/fonts/fontawesome-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Report/Karate_Cucumber_HTML_Report_20220711_141436/cucumber-html-reports/fonts/fontawesome-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Report/Karate_Cucumber_HTML_Report_20220711_141436/cucumber-html-reports/fonts/fontawesome-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Report/Karate_Cucumber_HTML_Report_20220711_141436/cucumber-html-reports/fonts/fontawesome-webfont.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Report/Karate_Cucumber_HTML_Report_20220711_141436/cucumber-html-reports/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Report/Karate_Cucumber_HTML_Report_20220711_141436/cucumber-html-reports/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Report/Karate_Cucumber_HTML_Report_20220711_141436/cucumber-html-reports/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Report/Karate_Cucumber_HTML_Report_20220711_141436/cucumber-html-reports/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Report/Karate_Cucumber_HTML_Report_20220711_141436/cucumber-html-reports/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Report/Karate_Cucumber_HTML_Report_20220711_141436/cucumber-html-reports/images/favicon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Report/Karate_Cucumber_HTML_Report_20220711_141436/cucumber-html-reports/js/Chart.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Report/Karate_Cucumber_HTML_Report_20220711_141436/cucumber-html-reports/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Report/Karate_Cucumber_HTML_Report_20220711_141436/cucumber-html-reports/js/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Report/Karate_Cucumber_HTML_Report_20220711_141436/cucumber-html-reports/js/jquery.tablesorter.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Report/Karate_Cucumber_HTML_Report_20220711_141436/cucumber-html-reports/js/moment.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Report/Karate_Cucumber_HTML_Report_20220711_141436/cucumber-html-reports/overview-failures.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Report/Karate_Cucumber_HTML_Report_20220711_141436/cucumber-html-reports/overview-features.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Report/Karate_Cucumber_HTML_Report_20220711_141436/cucumber-html-reports/overview-steps.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Report/Karate_Cucumber_HTML_Report_20220711_141436/cucumber-html-reports/overview-tags.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Report/Karate_Cucumber_HTML_Report_20220711_141436/cucumber-html-reports/report-feature_Features-Deleteuser-feature.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Report/Karate_Cucumber_HTML_Report_20220711_141436/cucumber-html-reports/report-feature_Features-PostCallDemo-feature_3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Report/Karate_Cucumber_HTML_Report_20220711_141436/cucumber-html-reports/report-feature_Features-Sample-feature_5.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Report/Karate_Cucumber_HTML_Report_20220711_141436/cucumber-html-reports/report-feature_Features-Sample1-feature_6.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Report/Karate_Cucumber_HTML_Report_20220711_141436/cucumber-html-reports/report-feature_Features-getmethodExample-feature_1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Report/Karate_Cucumber_HTML_Report_20220711_141436/cucumber-html-reports/report-feature_Features-getwithquery-feature_2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Report/Karate_Cucumber_HTML_Report_20220711_141436/cucumber-html-reports/report-feature_Features-putcallupdate-feature_4.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Report/Karate_Cucumber_HTML_Report_20220711_141436/cucumber-html-reports/report-feature_Features-token-feature_7.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Report/Karate_Cucumber_HTML_Report_20220711_141801/cucumber-html-reports/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Report/Karate_Cucumber_HTML_Report_20220711_141801/cucumber-html-reports/css/cucumber.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Report/Karate_Cucumber_HTML_Report_20220711_141801/cucumber-html-reports/css/font-awesome.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Report/Karate_Cucumber_HTML_Report_20220711_141801/cucumber-html-reports/fonts/FontAwesome.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Report/Karate_Cucumber_HTML_Report_20220711_141801/cucumber-html-reports/fonts/fontawesome-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Report/Karate_Cucumber_HTML_Report_20220711_141801/cucumber-html-reports/fonts/fontawesome-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Report/Karate_Cucumber_HTML_Report_20220711_141801/cucumber-html-reports/fonts/fontawesome-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Report/Karate_Cucumber_HTML_Report_20220711_141801/cucumber-html-reports/fonts/fontawesome-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Report/Karate_Cucumber_HTML_Report_20220711_141801/cucumber-html-reports/fonts/fontawesome-webfont.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Report/Karate_Cucumber_HTML_Report_20220711_141801/cucumber-html-reports/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Report/Karate_Cucumber_HTML_Report_20220711_141801/cucumber-html-reports/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Report/Karate_Cucumber_HTML_Report_20220711_141801/cucumber-html-reports/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Report/Karate_Cucumber_HTML_Report_20220711_141801/cucumber-html-reports/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Report/Karate_Cucumber_HTML_Report_20220711_141801/cucumber-html-reports/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Report/Karate_Cucumber_HTML_Report_20220711_141801/cucumber-html-reports/images/favicon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Report/Karate_Cucumber_HTML_Report_20220711_141801/cucumber-html-reports/js/Chart.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Report/Karate_Cucumber_HTML_Report_20220711_141801/cucumber-html-reports/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Report/Karate_Cucumber_HTML_Report_20220711_141801/cucumber-html-reports/js/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Report/Karate_Cucumber_HTML_Report_20220711_141801/cucumber-html-reports/js/jquery.tablesorter.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Report/Karate_Cucumber_HTML_Report_20220711_141801/cucumber-html-reports/js/moment.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Report/Karate_Cucumber_HTML_Report_20220711_141801/cucumber-html-reports/overview-failures.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Report/Karate_Cucumber_HTML_Report_20220711_141801/cucumber-html-reports/overview-features.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Report/Karate_Cucumber_HTML_Report_20220711_141801/cucumber-html-reports/overview-steps.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Report/Karate_Cucumber_HTML_Report_20220711_141801/cucumber-html-reports/overview-tags.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Report/Karate_Cucumber_HTML_Report_20220711_141801/cucumber-html-reports/report-feature_Features-Deleteuser-feature.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Report/Karate_Cucumber_HTML_Report_20220711_141801/cucumber-html-reports/report-feature_Features-PostCallDemo-feature_3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Report/Karate_Cucumber_HTML_Report_20220711_141801/cucumber-html-reports/report-feature_Features-Sample-feature_5.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Report/Karate_Cucumber_HTML_Report_20220711_141801/cucumber-html-reports/report-feature_Features-Sample1-feature_6.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Report/Karate_Cucumber_HTML_Report_20220711_141801/cucumber-html-reports/report-feature_Features-getmethodExample-feature_1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Report/Karate_Cucumber_HTML_Report_20220711_141801/cucumber-html-reports/report-feature_Features-getwithquery-feature_2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Report/Karate_Cucumber_HTML_Report_20220711_141801/cucumber-html-reports/report-feature_Features-putcallupdate-feature_4.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Report/Karate_Cucumber_HTML_Report_20220711_141801/cucumber-html-reports/report-feature_Features-token-feature_7.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/TestRunner/TestNGRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TestRunner/TestNGRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/TestRunner/TestRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TestRunner/TestRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/TestRunner/TestNGRunner.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/TestRunner/TestNGRunner.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/TestRunner/TestRunner.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/TestRunner/TestRunner.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/karate-reports/Features.Deleteuser.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/karate-reports/Features.Deleteuser.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/karate-reports/Features.Deleteuser.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/karate-reports/Features.Deleteuser.json" afterDir="false" />
@@ -33,6 +132,15 @@
       <change beforePath="$PROJECT_DIR$/target/karate-reports/karate-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/karate-reports/karate-summary.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/karate-reports/karate-tags.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/karate-reports/karate-tags.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/karate-reports/karate-timeline.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/karate-reports/karate-timeline.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/TestRunner/TestRunnerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/TestRunner/TestRunnerTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/Suite/Test.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/Suite/Test.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/Suite/Test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/Suite/Test.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/emailable-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/emailable-report.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/junitreports/TEST-TestRunner.TestNGRunner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/junitreports/TEST-TestRunner.TestNGRunner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/Suite/methods-alphabetical.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/Suite/methods-alphabetical.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/Suite/methods.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/Suite/methods.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/testng-results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/testng-results.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -51,7 +159,11 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="2BbVwxSE4xC3KDrRIFPapNDugwM" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources/Features" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -76,21 +188,18 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TestRunner">
-    <configuration name="Feature: example" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="1.2" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/main/resources/Features/example.feature" />
-      <option name="GLUE" value="com.intuit.karate" />
-      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
+  <component name="RunManager" selected="TestNG.C:/Users/SUMIT/comintellijexample1/testng.xml">
+    <configuration name="Runner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="comintellijexample1" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome" />
-      <option name="SUGGESTED_NAME" value="Feature: example" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cucumber.api.cli.*" />
+          <option name="PATTERN" value="TestRunner.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="TestRunner" />
+      <option name="MAIN_CLASS_NAME" value="TestRunner.Runner" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -141,12 +250,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="C:/Users/SUMIT/comintellijexample1/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="comintellijexample1" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.C:/Users/SUMIT/comintellijexample1/testng.xml" />
+        <item itemvalue="JUnit.Runner" />
         <item itemvalue="JUnit.TestRunner" />
         <item itemvalue="JUnit.TestRunner.testParallel" />
         <item itemvalue="JUnit.TestRun" />
-        <item itemvalue="Cucumber java.Feature: example" />
       </list>
     </recent_temporary>
   </component>
@@ -168,10 +288,15 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>
