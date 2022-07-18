@@ -9,10 +9,23 @@
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 <tr><th colspan="8">Suite</th></tr>
-<tr><td><a href="#t0">Test</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">660</td><td></td><td></td></tr>
+<tr><td><a href="#t0">Test</a></td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">10,756</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">TestRunner.TestNGRunner</td><td><a href="#m0">runTest</a></td><td rowspan="1">1657527853272</td><td rowspan="1">619</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">TestRunner.TestRunner</td><td><a href="#m0">runTest</a></td><td rowspan="1">1657896436065</td><td rowspan="1">10658</td></tr></tbody>
 </table>
-<h2>Test</h2><h3 id="m0">TestRunner.TestNGRunner#runTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Test</h2><h3 id="m0">TestRunner.TestRunner#runTest</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.opentest4j.AssertionFailedError: status code was: 404, expected: 200, response time in milliseconds: 866, url: https://gorest.co.in/public/v2/posts/100, response: 
+{&quot;message&quot;:&quot;Resource not found&quot;}
+classpath:Features/getmethodExample.feature:8
+status code was: 404, expected: 200, response time in milliseconds: 1100, url: https://gorest.co.in/public/v1/users/30, response: 
+{&quot;meta&quot;:null,&quot;data&quot;:{&quot;message&quot;:&quot;Resource not found&quot;}}
+classpath:Features/token.feature:10 ==&gt; expected: &lt;0&gt; but was: &lt;2&gt;
+	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:55)
+	at org.junit.jupiter.api.AssertionUtils.failNotEqual(AssertionUtils.java:62)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:150)
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:542)
+	at TestRunner.TestRunner.testParallel(TestRunner.java:30)
+	at TestRunner.TestRunner.runTest(TestRunner.java:25)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 27 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>

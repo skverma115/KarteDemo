@@ -2,10 +2,12 @@ package TestRunner;
 import com.intuit.karate.Results;
 import com.intuit.karate.Runner;
 import com.intuit.karate.junit5.Karate;
+
 import net.masterthought.cucumber.Configuration;
 import net.masterthought.cucumber.ReportBuilder;
 import org.apache.commons.io.FileUtils;
 import org.junit.jupiter.api.Test;
+import org.junit.runner.RunWith;
 
 import java.io.File;
 import java.text.DateFormat;
@@ -16,7 +18,6 @@ import java.util.Date;
 import java.util.List;
 import static org.junit.jupiter.api.Assertions.*;
 
-
 public class TestRunner {
     @org.testng.annotations.Test
     public void runTest()
@@ -26,9 +27,9 @@ public class TestRunner {
     }
   @Test
     public void testParallel() {
-        Results results = Runner.path("classpath:Features/").outputCucumberJson(true).tags("@SmokeTest, @RegressionTest").parallel(9);
-        assertEquals(0, results.getFailCount(), results.getErrorMessages());
+        Results results = Runner.path("classpath:Features/").outputCucumberJson(true).tags("@SmokeTest, @RegressionTest").parallel(1);
         generateReport(results.getReportDir());
+        assertEquals(0, results.getFailCount(), results.getErrorMessages());
     }
     public static void generateReport(String karateOutputPath) {
         Collection<File> jsonFiles = FileUtils.listFiles(new File(karateOutputPath), new String[] {"json"}, true);
@@ -45,6 +46,4 @@ public class TestRunner {
 		String s = dateFormat.format(date);
 		return s;
     }
-    
-   
 }
