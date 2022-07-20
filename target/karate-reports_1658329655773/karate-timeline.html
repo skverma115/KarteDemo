@@ -1,0 +1,32 @@
+<!DOCTYPE HTML>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <title>Karate Timeline</title>
+    <style>
+      body, html { font-family: arial, sans-serif; font-size: 11pt; }
+      #visualization { box-sizing: border-box; width: 100%; height: 300px; }
+      .vis-item.failed { background-color: #F2928C; }
+      .page-heading { padding: 0.5em; margin-bottom: 0.5em; background-color: lightcyan; border: 1px solid gray; }
+    </style>
+    <script src="res/vis.min.js"></script>
+    <link href="res/vis.min.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <div class="page-heading">
+      <a href="karate-summary.html">Summary</a>
+    </div>     
+    <div id="visualization"></div>
+    <script>
+var groups = [{"content":"main","id":1}];
+var items = [{"id":1,"group":1,"content":"Features\/Deleteuser[1:31]","start":1658329173608,"end":1658329180143,"title":"Features\/Deleteuser[1:31] 20:29:33.608-20:29:40.143 Create user using given data"},{"id":2,"group":1,"content":"Features\/getwithquery[1:3]","start":1658329184391,"end":1658329184766,"title":"Features\/getwithquery[1:3] 20:29:44.391-20:29:44.766 Get Details using get method"},{"id":3,"group":1,"content":"Features\/getmethodExample[1:3]","start":1658329183304,"end":1658329184238,"title":"Features\/getmethodExample[1:3] 20:29:43.304-20:29:44.238 Get Details using get method"},{"id":4,"group":1,"content":"Features\/token[1:3]","start":1658329186466,"end":1658329186864,"title":"Features\/token[1:3] 20:29:46.466-20:29:46.864 Get Details using get method"},{"id":5,"group":1,"content":"Features\/PostCallDemo[1:31]","start":1658329184942,"end":1658329185542,"title":"Features\/PostCallDemo[1:31] 20:29:44.942-20:29:45.542 Create user using given data"},{"id":6,"group":1,"content":"Features\/putcallupdate[1:31]","start":1658329185682,"end":1658329186197,"title":"Features\/putcallupdate[1:31] 20:29:45.682-20:29:46.197 Create user using given data"},{"id":7,"group":1,"content":"Features\/Sample[2:9]","start":1658329186357,"end":1658329186358,"title":"Features\/Sample[2:9] 20:29:46.357-20:29:46.358 Declare and print variable"}];
+</script>
+    <script>
+      var container = document.getElementById('visualization');
+      var timeline = new vis.Timeline(container);
+      timeline.setOptions({groupOrder: 'content'});
+      timeline.setGroups(new vis.DataSet(groups));
+      timeline.setItems(new vis.DataSet(items));
+    </script>
+  </body>
+</html>

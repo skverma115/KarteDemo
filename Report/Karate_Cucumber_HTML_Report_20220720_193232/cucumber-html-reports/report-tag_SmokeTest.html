@@ -1,0 +1,1721 @@
+<!DOCTYPE html>
+<html>
+<head>
+  
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/jquery.tablesorter.min.js"></script>
+<script type="text/javascript" src="js/Chart.min.js"></script>
+<script type="text/javascript" src="js/moment.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" href="css/bootstrap.min.css" type="text/css"/>
+<link rel="stylesheet" href="css/cucumber.css" type="text/css"/>
+<link rel="stylesheet" href="css/font-awesome.min.css"/>
+<link rel="shortcut icon" href="images/favicon.png"/>
+
+<script type="text/javascript">
+$(document).ready(function() {
+    // this will tell tablesorter to try looking for the data-value attribute
+    // if present, it'll sort by that instead
+    // otherwise, it'll sort by the text content of the table cell
+    $("#tablesorter").tablesorter({
+        textAttribute: 'data-value',
+        // ignores the first row of the header, the 'scenario', 'steps', since
+        // sorting those doesn't make sense
+        selectorHeaders: '> thead tr:not(.dont-sort) th',
+        // use a stable sort
+        sortStable: true
+    });
+});
+</script>
+
+
+
+
+
+
+
+
+
+
+
+  
+<title>Cucumber Reports  - Tag: @SmokeTest</title>
+
+</head>
+<body>
+
+<nav class="navbar navbar-default navbar-fixed-top" id="navigation">
+  <div class="container-fluid">
+    <div class="collapse navbar-collapse">
+      <p class="navbar-text navbar-left">Cucumber Report</p>
+      <ul class="nav navbar-nav navbar-right">
+                <li role="presentation" ><a href="overview-features.html">Features</a></li>
+        <li role="presentation" ><a href="overview-tags.html">Tags</a></li>
+        <li role="presentation" ><a href="overview-steps.html">Steps</a></li>
+                <li role="presentation" ><a href="overview-failures.html">Failures</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+<div class="container-fluid">
+  <div class="col-md-5 col-md-offset-1">
+    
+<table class="table table-bordered" id="build-info">
+  <thead>
+    <tr>
+      <th>Project</th>
+            <th>Date</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr class="info">
+      <td>dummy</td>
+            <td>20 Jul 2022, 19:32</td>
+    </tr>
+  </tbody>
+</table>
+
+  </div>
+  <div class="col-md-3 col-md-offset-2">
+      </div>
+</div>
+
+
+<div id="report-lead" class="container-fluid">
+  <div class="col-md-10 col-md-offset-1">
+    <h2>Tag Report</h2>
+      </div>
+</div>
+
+
+<div class="container-fluid" id="report">
+  <div class="row">
+    <div class="col-md-10 col-md-offset-1">
+      <table class="stats-table">
+
+        
+<thead>
+  <tr class="header dont-sort">
+        <th></th>
+    <th colspan="6">Steps</th>
+    <th colspan="3">Scenarios</th>
+    <th colspan="2">Features</th>
+  </tr>
+  <tr>
+    <th>Tag</th>
+        <th class="passed">Passed</th>
+    <th class="failed">Failed</th>
+    <th class="skipped">Skipped</th>
+    <th class="pending">Pending</th>
+    <th class="undefined">Undefined</th>
+    <th class="total">Total</th>
+
+    <th class="passed">Passed</th>
+    <th class="failed">Failed</th>
+    <th class="total">Total</th>
+
+    <th>Duration</th>
+    <th>Status</th>
+  </tr>
+</thead>
+
+
+        <tbody>
+        <tr>
+          <td class="tagname">@SmokeTest</td>
+                    <td      class="passed"    >39</td>
+          <td      class="failed"    >1</td>
+          <td >0</td>
+          <td >0</td>
+          <td >0</td>
+          <td class="total">40</td>
+
+          <td  class="passed"    >3</td>
+          <td  class="failed"    >1</td>
+          <td class="total">4</td>
+
+          <td class="duration" data-value="5497982200">5s 497ms</td>
+          <td class="failed">Failed</td>
+        </tr>
+        </tbody>
+
+      </table>
+    </div>
+  </div>
+</div>
+
+
+
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-md-10 col-md-offset-10">
+      <i class="fa fa-chevron-circle-down fa-2x collapsable-control"
+        onClick="javascript:$('#report .collapsable-details').collapse('show')"></i>
+      <i class="fa fa-chevron-circle-up fa-2x collapsable-control"
+        onClick="javascript:$('#report .collapsable-details').collapse('hide')"></i>
+    </div>
+  </div>
+</div>
+
+
+<div class="container-fluid" id="report">
+  <div class="row">
+    <div class="col-md-10 col-md-offset-1">
+      <div class="elements">
+
+                  
+<div class="element">
+      <div class="indention">
+      <b>Feature:</b>
+      <a href="report-feature_Features-Deleteuser-feature.html">Features/Deleteuser.feature</a>
+    </div>
+  
+  
+<div class="tags indention">
+      <b>Tags:</b>
+           <a href="report-tag_SmokeTest.html">@SmokeTest</a>
+      </div>
+
+  
+  <span class="lead-duration duration">4s 847ms</span>
+
+
+    <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-1">
+    
+<div class="brief passed">
+  <span class="keyword indention">Scenario</span>
+  <span class="name">Create user using given data</span>
+  
+
+       <i class="chevron fa fa-fw"></i>
+  </div>
+
+  </span>
+  <div class="description indention"></div>
+
+  <div id="element-1" class="collapse collapsable-details ">
+    
+
+
+    
+<div class="steps inner-level">
+    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-2">
+    
+<div class="brief passed">
+  <span class="keyword indention">Steps</span>
+  <span class="name"></span>
+  
+
+       <i class="chevron fa fa-fw"></i>
+  </div>
+
+  </div>
+
+  <div id="steps-2" class="inner-level collapse collapsable-details ">
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">*</span>
+  <span class="name">def token = '4cf5a3adc501a506f811309e96c2fe51cb9eac17ff89a755441ed1913f162f87'</span>
+  
+  <span class="lead-duration duration">001ms</span>
+
+  </div>
+
+        
+
+
+        
+        
+
+        
+
+        
+  
+      </div>
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">Given</span>
+  <span class="name">path '/public/v1/users/'</span>
+  
+  <span class="lead-duration duration">000ms</span>
+
+  </div>
+
+        
+
+
+        
+        
+
+        
+
+        
+  
+      </div>
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">And</span>
+  <span class="name">request requestpayload</span>
+  
+  <span class="lead-duration duration">016ms</span>
+
+  </div>
+
+        
+
+
+        
+        
+
+        
+
+        
+  
+      </div>
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">And</span>
+  <span class="name">header authorization  = 'Bearer ' + token</span>
+  
+  <span class="lead-duration duration">000ms</span>
+
+  </div>
+
+        
+
+
+        
+        
+
+        
+
+        
+  
+      </div>
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">When</span>
+  <span class="name">method post</span>
+  
+  <span class="lead-duration duration">3s 928ms</span>
+
+  </div>
+
+        
+
+
+        
+        
+  <div class="inner-level">
+    <div class="docstring indention">
+            <div data-toggle="collapse" class="collapsable-control" data-target="#msg-3">
+          <a>Doc string</a>
+      </div>
+      <div id="msg-3" class="collapse collapsable-details">
+        <pre>19:32:23.553 request:
+1 &gt; POST https://gorest.co.in/public/v1/users
+1 &gt; authorization: Bearer 4cf5a3adc501a506f811309e96c2fe51cb9eac17ff89a755441ed1913f162f87
+1 &gt; Content-Type: application/json; charset=UTF-8
+1 &gt; Content-Length: 81
+1 &gt; Host: gorest.co.in
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_311)
+1 &gt; Accept-Encoding: gzip,deflate
+{&quot;name&quot;:&quot;sumit&quot;,&quot;gender&quot;:&quot;male&quot;,&quot;status&quot;:&quot;active&quot;,&quot;email&quot;:&quot;RMTQPSDPFA@gmail.com&quot;}
+
+19:32:25.350 response time in milliseconds: 1790
+1 &lt; 201
+1 &lt; Date: Wed, 20 Jul 2022 14:02:24 GMT
+1 &lt; Content-Type: application/json; charset=utf-8
+1 &lt; Transfer-Encoding: chunked
+1 &lt; Connection: keep-alive
+1 &lt; X-Frame-Options: SAMEORIGIN
+1 &lt; X-XSS-Protection: 0
+1 &lt; X-Content-Type-Options: nosniff
+1 &lt; X-Download-Options: noopen
+1 &lt; X-Permitted-Cross-Domain-Policies: none
+1 &lt; Referrer-Policy: strict-origin-when-cross-origin
+1 &lt; X-RateLimit-Limit: 90
+1 &lt; X-RateLimit-Remaining: 88
+1 &lt; X-RateLimit-Reset: 1
+1 &lt; Location: https://gorest.co.in/public/v1/users/4089
+1 &lt; ETag: W/&quot;774bc22dc30a376f57f359e4a1f61ea8&quot;
+1 &lt; Cache-Control: max-age=0, private, must-revalidate
+1 &lt; X-Request-Id: 6975710f-b627-4b37-b379-00e3e4afd185
+1 &lt; X-Runtime: 0.022162
+1 &lt; Strict-Transport-Security: max-age=63072000; includeSubDomains
+1 &lt; Vary: Origin
+1 &lt; CF-Cache-Status: DYNAMIC
+1 &lt; Expect-CT: max-age=604800, report-uri=&quot;https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct&quot;
+1 &lt; Report-To: {&quot;endpoints&quot;:[{&quot;url&quot;:&quot;https:\/\/a.nel.cloudflare.com\/report\/v3?s=03e521mnKBFMoAT%2FEvYJK99iVkW4pJO8K1i3ExNySIYrl8%2BeKJgkH%2B0cnPnOT0t48dYQnOQk9866GshKpNrRZGHqjxAbazDSs75twzR%2B02p%2Fl60gDnR2plXeaA8xw8U%3D&quot;}],&quot;group&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}
+1 &lt; NEL: {&quot;success_fraction&quot;:0,&quot;report_to&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}
+1 &lt; Server: cloudflare
+1 &lt; CF-RAY: 72dc3bfcbd3894be-CCU
+1 &lt; alt-svc: h3=&quot;:443&quot;; ma=86400, h3-29=&quot;:443&quot;; ma=86400
+{&quot;meta&quot;:null,&quot;data&quot;:{&quot;id&quot;:4089,&quot;name&quot;:&quot;sumit&quot;,&quot;email&quot;:&quot;RMTQPSDPFA@gmail.com&quot;,&quot;gender&quot;:&quot;male&quot;,&quot;status&quot;:&quot;active&quot;}}
+
+</pre>
+      </div>
+    </div>
+  </div>
+
+        
+
+        
+  
+      </div>
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">Then</span>
+  <span class="name">status 201</span>
+  
+  <span class="lead-duration duration">000ms</span>
+
+  </div>
+
+        
+
+
+        
+        
+
+        
+
+        
+  
+      </div>
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">And</span>
+  <span class="name">match $.data.id == '#present'</span>
+  
+  <span class="lead-duration duration">031ms</span>
+
+  </div>
+
+        
+
+
+        
+        
+
+        
+
+        
+  
+      </div>
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">*</span>
+  <span class="name">def userID = $.data.id</span>
+  
+  <span class="lead-duration duration">000ms</span>
+
+  </div>
+
+        
+
+
+        
+        
+
+        
+
+        
+  
+      </div>
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">*</span>
+  <span class="name">print userID</span>
+  
+  <span class="lead-duration duration">001ms</span>
+
+  </div>
+
+        
+
+
+        
+        
+  <div class="inner-level">
+    <div class="docstring indention">
+            <div data-toggle="collapse" class="collapsable-control" data-target="#msg-4">
+          <a>Doc string</a>
+      </div>
+      <div id="msg-4" class="collapse collapsable-details">
+        <pre>19:32:25.387 [print] 4089 
+</pre>
+      </div>
+    </div>
+  </div>
+
+        
+
+        
+  
+      </div>
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">Given</span>
+  <span class="name">path '/public/v1/users/' + userID</span>
+  
+  <span class="lead-duration duration">001ms</span>
+
+  </div>
+
+        
+
+
+        
+        
+
+        
+
+        
+  
+      </div>
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">And</span>
+  <span class="name">header authorization  = 'Bearer ' + token</span>
+  
+  <span class="lead-duration duration">000ms</span>
+
+  </div>
+
+        
+
+
+        
+        
+
+        
+
+        
+  
+      </div>
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">When</span>
+  <span class="name">method delete</span>
+  
+  <span class="lead-duration duration">286ms</span>
+
+  </div>
+
+        
+
+
+        
+        
+  <div class="inner-level">
+    <div class="docstring indention">
+            <div data-toggle="collapse" class="collapsable-control" data-target="#msg-5">
+          <a>Doc string</a>
+      </div>
+      <div id="msg-5" class="collapse collapsable-details">
+        <pre>19:32:25.389 request:
+2 &gt; DELETE https://gorest.co.in/public/v1/users/4089
+2 &gt; authorization: Bearer 4cf5a3adc501a506f811309e96c2fe51cb9eac17ff89a755441ed1913f162f87
+2 &gt; Host: gorest.co.in
+2 &gt; Connection: Keep-Alive
+2 &gt; User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_311)
+2 &gt; Accept-Encoding: gzip,deflate
+
+
+19:32:25.665 response time in milliseconds: 276
+2 &lt; 204
+2 &lt; Date: Wed, 20 Jul 2022 14:02:24 GMT
+2 &lt; Connection: keep-alive
+2 &lt; X-Frame-Options: SAMEORIGIN
+2 &lt; X-XSS-Protection: 0
+2 &lt; X-Content-Type-Options: nosniff
+2 &lt; X-Download-Options: noopen
+2 &lt; X-Permitted-Cross-Domain-Policies: none
+2 &lt; Referrer-Policy: strict-origin-when-cross-origin
+2 &lt; X-RateLimit-Limit: 90
+2 &lt; X-RateLimit-Remaining: 89
+2 &lt; X-RateLimit-Reset: 2
+2 &lt; Cache-Control: no-cache
+2 &lt; X-Request-Id: 559c699b-b00d-422a-a34b-6addaa7f8a60
+2 &lt; X-Runtime: 0.021019
+2 &lt; Strict-Transport-Security: max-age=63072000; includeSubDomains
+2 &lt; Vary: Origin
+2 &lt; CF-Cache-Status: DYNAMIC
+2 &lt; Expect-CT: max-age=604800, report-uri=&quot;https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct&quot;
+2 &lt; Report-To: {&quot;endpoints&quot;:[{&quot;url&quot;:&quot;https:\/\/a.nel.cloudflare.com\/report\/v3?s=3PbR9x945ez2u2cxyDGhJgkNESW3lRuMbXunYADvIXLkI9%2FkkUtxGhgD2gliV9%2Fql8aUFprMhwBshe1YNlzThZ1Je3DoFUVRoZQW%2FiQDFCWs1CaTXhIB6MpbKhjR5q8%3D&quot;}],&quot;group&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}
+2 &lt; NEL: {&quot;success_fraction&quot;:0,&quot;report_to&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}
+2 &lt; Server: cloudflare
+2 &lt; CF-RAY: 72dc3c01c8c50e98-BOM
+2 &lt; alt-svc: h3=&quot;:443&quot;; ma=86400, h3-29=&quot;:443&quot;; ma=86400
+
+
+</pre>
+      </div>
+    </div>
+  </div>
+
+        
+
+        
+  
+      </div>
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">Then</span>
+  <span class="name">status 204</span>
+  
+  <span class="lead-duration duration">000ms</span>
+
+  </div>
+
+        
+
+
+        
+        
+
+        
+
+        
+  
+      </div>
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">Given</span>
+  <span class="name">path '/public/v1/users/' + userID</span>
+  
+  <span class="lead-duration duration">000ms</span>
+
+  </div>
+
+        
+
+
+        
+        
+
+        
+
+        
+  
+      </div>
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">And</span>
+  <span class="name">header authorization  = 'Bearer ' + token</span>
+  
+  <span class="lead-duration duration">000ms</span>
+
+  </div>
+
+        
+
+
+        
+        
+
+        
+
+        
+  
+      </div>
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">When</span>
+  <span class="name">method GET</span>
+  
+  <span class="lead-duration duration">572ms</span>
+
+  </div>
+
+        
+
+
+        
+        
+  <div class="inner-level">
+    <div class="docstring indention">
+            <div data-toggle="collapse" class="collapsable-control" data-target="#msg-6">
+          <a>Doc string</a>
+      </div>
+      <div id="msg-6" class="collapse collapsable-details">
+        <pre>19:32:25.665 request:
+3 &gt; GET https://gorest.co.in/public/v1/users/4089
+3 &gt; authorization: Bearer 4cf5a3adc501a506f811309e96c2fe51cb9eac17ff89a755441ed1913f162f87
+3 &gt; Host: gorest.co.in
+3 &gt; Connection: Keep-Alive
+3 &gt; User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_311)
+3 &gt; Accept-Encoding: gzip,deflate
+
+
+19:32:26.235 response time in milliseconds: 570
+3 &lt; 404
+3 &lt; Date: Wed, 20 Jul 2022 14:02:25 GMT
+3 &lt; Content-Type: application/json; charset=utf-8
+3 &lt; Transfer-Encoding: chunked
+3 &lt; Connection: keep-alive
+3 &lt; Vary: Accept-Encoding
+3 &lt; Vary: Origin
+3 &lt; X-Frame-Options: SAMEORIGIN
+3 &lt; X-XSS-Protection: 0
+3 &lt; X-Content-Type-Options: nosniff
+3 &lt; X-Download-Options: noopen
+3 &lt; X-Permitted-Cross-Domain-Policies: none
+3 &lt; Referrer-Policy: strict-origin-when-cross-origin
+3 &lt; X-RateLimit-Limit: 90
+3 &lt; X-RateLimit-Remaining: 88
+3 &lt; X-RateLimit-Reset: 2
+3 &lt; Cache-Control: no-cache
+3 &lt; X-Request-Id: f323f61b-8eba-4761-88aa-59947c069159
+3 &lt; X-Runtime: 0.013218
+3 &lt; Strict-Transport-Security: max-age=63072000; includeSubDomains
+3 &lt; CF-Cache-Status: DYNAMIC
+3 &lt; Expect-CT: max-age=604800, report-uri=&quot;https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct&quot;
+3 &lt; Report-To: {&quot;endpoints&quot;:[{&quot;url&quot;:&quot;https:\/\/a.nel.cloudflare.com\/report\/v3?s=6OrjgRN%2FKNUQ2SiPEDNhAZ5xTF7D%2Bx9D7ZV7gayfzuAUEEwIISy5ZfJAHVc6AUsmhyrOGJjtGBS5i5MSYyn%2FPNp58CCiZSUmeeVGI7isHN7mgO8CkVD%2Fszgv68aXidE%3D&quot;}],&quot;group&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}
+3 &lt; NEL: {&quot;success_fraction&quot;:0,&quot;report_to&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}
+3 &lt; Server: cloudflare
+3 &lt; CF-RAY: 72dc3c02bbec94b3-CCU
+3 &lt; alt-svc: h3=&quot;:443&quot;; ma=86400, h3-29=&quot;:443&quot;; ma=86400
+{&quot;meta&quot;:null,&quot;data&quot;:{&quot;message&quot;:&quot;Resource not found&quot;}}
+
+</pre>
+      </div>
+    </div>
+  </div>
+
+        
+
+        
+  
+      </div>
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">Then</span>
+  <span class="name">status 404</span>
+  
+  <span class="lead-duration duration">000ms</span>
+
+  </div>
+
+        
+
+
+        
+        
+
+        
+
+        
+  
+      </div>
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">And</span>
+  <span class="name">match $.data.message == 'Resource not found'</span>
+  
+  <span class="lead-duration duration">001ms</span>
+
+  </div>
+
+        
+
+
+        
+        
+
+        
+
+        
+  
+      </div>
+      </div>
+</div>
+
+
+    
+
+  </div>
+</div>
+
+                  
+<div class="element">
+      <div class="indention">
+      <b>Feature:</b>
+      <a href="report-feature_Features-getmethodExample-feature_1.html">Features/getmethodExample.feature</a>
+    </div>
+  
+  
+<div class="tags indention">
+      <b>Tags:</b>
+           <a href="report-tag_SmokeTest.html">@SmokeTest</a>
+      </div>
+
+  
+  <span class="lead-duration duration">345ms</span>
+
+
+    <span data-toggle="collapse" class=" collapsable-control" data-target="#element-7">
+    
+<div class="brief failed">
+  <span class="keyword indention">Scenario</span>
+  <span class="name">Get Details using get method</span>
+  
+
+       <i class="chevron fa fa-fw"></i>
+  </div>
+
+  </span>
+  <div class="description indention"></div>
+
+  <div id="element-7" class="collapse collapsable-details  in ">
+    
+
+
+    
+<div class="steps inner-level">
+    <div data-toggle="collapse" class=" collapsable-control" data-target="#steps-8">
+    
+<div class="brief failed">
+  <span class="keyword indention">Steps</span>
+  <span class="name"></span>
+  
+
+       <i class="chevron fa fa-fw"></i>
+  </div>
+
+  </div>
+
+  <div id="steps-8" class="inner-level collapse collapsable-details  in ">
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">Given</span>
+  <span class="name">url 'https://gorest.co.in/public/v2/posts/'</span>
+  
+  <span class="lead-duration duration">001ms</span>
+
+  </div>
+
+        
+
+
+        
+        
+
+        
+
+        
+  
+      </div>
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">And</span>
+  <span class="name">path '100'</span>
+  
+  <span class="lead-duration duration">000ms</span>
+
+  </div>
+
+        
+
+
+        
+        
+
+        
+
+        
+  
+      </div>
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">When</span>
+  <span class="name">method GET</span>
+  
+  <span class="lead-duration duration">337ms</span>
+
+  </div>
+
+        
+
+
+        
+        
+  <div class="inner-level">
+    <div class="docstring indention">
+            <div data-toggle="collapse" class="collapsable-control" data-target="#msg-9">
+          <a>Doc string</a>
+      </div>
+      <div id="msg-9" class="collapse collapsable-details">
+        <pre>19:32:28.150 request:
+1 &gt; GET https://gorest.co.in/public/v2/posts/100
+1 &gt; Host: gorest.co.in
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_311)
+1 &gt; Accept-Encoding: gzip,deflate
+
+
+19:32:28.483 response time in milliseconds: 332
+1 &lt; 200
+1 &lt; Date: Wed, 20 Jul 2022 14:02:27 GMT
+1 &lt; Content-Type: application/json; charset=utf-8
+1 &lt; Transfer-Encoding: chunked
+1 &lt; Connection: keep-alive
+1 &lt; Vary: Accept-Encoding
+1 &lt; Vary: Origin
+1 &lt; X-Frame-Options: SAMEORIGIN
+1 &lt; X-XSS-Protection: 0
+1 &lt; X-Content-Type-Options: nosniff
+1 &lt; X-Download-Options: noopen
+1 &lt; X-Permitted-Cross-Domain-Policies: none
+1 &lt; Referrer-Policy: strict-origin-when-cross-origin
+1 &lt; ETag: W/&quot;67df60c39d90facb220899c70e9cb556&quot;
+1 &lt; Cache-Control: max-age=0, private, must-revalidate
+1 &lt; X-Request-Id: dfdec4f3-4902-424d-8ca9-62dfd15284a5
+1 &lt; X-Runtime: 0.003641
+1 &lt; Strict-Transport-Security: max-age=63072000; includeSubDomains
+1 &lt; CF-Cache-Status: DYNAMIC
+1 &lt; Expect-CT: max-age=604800, report-uri=&quot;https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct&quot;
+1 &lt; Report-To: {&quot;endpoints&quot;:[{&quot;url&quot;:&quot;https:\/\/a.nel.cloudflare.com\/report\/v3?s=33G9%2F1r6oXoBucB%2FXiroetqg12WtD3hdhYZvYQdym4aEeHXKWcxPBeQ7YtprUo43Qqpewm65DzTsI8eSVAkFPWOyW5jUyJBGj9KaXjxf1i9bKdIGYHJriZ%2F7mssxRgU%3D&quot;}],&quot;group&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}
+1 &lt; NEL: {&quot;success_fraction&quot;:0,&quot;report_to&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}
+1 &lt; Server: cloudflare
+1 &lt; CF-RAY: 72dc3c121f2693c1-CCU
+1 &lt; alt-svc: h3=&quot;:443&quot;; ma=86400, h3-29=&quot;:443&quot;; ma=86400
+{&quot;id&quot;:100,&quot;user_id&quot;:214,&quot;title&quot;:&quot;Tristis cado uxor certo accommodo summopere cubicularis ambulo iure id curia adfectus adnuo in vulgo terreo pecus uterque.&quot;,&quot;body&quot;:&quot;Crebro valens nihil. Desipio approbo suppellex. Pecto trans adipisci. Sint capillus adhuc. Tergiversatio ars comminor. Coadunatio tribuo virtus. Dignissimos viridis compello. Sollers curvus usitas. Vespillo deorsum adeo. Cupio adfectus titulus. Iure totam sollers. Placeat cariosus mollitia. Auxilium approbo corrumpo. Sequi demoror talis. Ut aliquam vulariter. Stips bestia illum. Aestivus surgo speculum. Correptius deprecator suasoria. Conqueror damno commodi.&quot;}
+
+</pre>
+      </div>
+    </div>
+  </div>
+
+        
+
+        
+  
+      </div>
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">Then</span>
+  <span class="name">status 200</span>
+  
+  <span class="lead-duration duration">000ms</span>
+
+  </div>
+
+        
+
+
+        
+        
+
+        
+
+        
+  
+      </div>
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">*</span>
+  <span class="name">print response</span>
+  
+  <span class="lead-duration duration">002ms</span>
+
+  </div>
+
+        
+
+
+        
+        
+  <div class="inner-level">
+    <div class="docstring indention">
+            <div data-toggle="collapse" class="collapsable-control" data-target="#msg-10">
+          <a>Doc string</a>
+      </div>
+      <div id="msg-10" class="collapse collapsable-details">
+        <pre>19:32:28.486 [print] {
+  &quot;id&quot;: 100,
+  &quot;user_id&quot;: 214,
+  &quot;title&quot;: &quot;Tristis cado uxor certo accommodo summopere cubicularis ambulo iure id curia adfectus adnuo in vulgo terreo pecus uterque.&quot;,
+  &quot;body&quot;: &quot;Crebro valens nihil. Desipio approbo suppellex. Pecto trans adipisci. Sint capillus adhuc. Tergiversatio ars comminor. Coadunatio tribuo virtus. Dignissimos viridis compello. Sollers curvus usitas. Vespillo deorsum adeo. Cupio adfectus titulus. Iure totam sollers. Placeat cariosus mollitia. Auxilium approbo corrumpo. Sequi demoror talis. Ut aliquam vulariter. Stips bestia illum. Aestivus surgo speculum. Correptius deprecator suasoria. Conqueror damno commodi.&quot;
+}
+ 
+</pre>
+      </div>
+    </div>
+  </div>
+
+        
+
+        
+  
+      </div>
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">*</span>
+  <span class="name">def temp = response</span>
+  
+  <span class="lead-duration duration">000ms</span>
+
+  </div>
+
+        
+
+
+        
+        
+
+        
+
+        
+  
+      </div>
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">*</span>
+  <span class="name">print temp.id</span>
+  
+  <span class="lead-duration duration">001ms</span>
+
+  </div>
+
+        
+
+
+        
+        
+  <div class="inner-level">
+    <div class="docstring indention">
+            <div data-toggle="collapse" class="collapsable-control" data-target="#msg-11">
+          <a>Doc string</a>
+      </div>
+      <div id="msg-11" class="collapse collapsable-details">
+        <pre>19:32:28.489 [print] 100 
+</pre>
+      </div>
+    </div>
+  </div>
+
+        
+
+        
+  
+      </div>
+          <div class="step">
+        
+<div class="brief failed">
+  <span class="keyword indention">*</span>
+  <span class="name">match temp.id == 10000000</span>
+  
+  <span class="lead-duration duration">002ms</span>
+
+  </div>
+
+        
+
+  <div class="inner-level">
+    <div class="message indention">
+      <div data-toggle="collapse" class=" collapsable-control" data-target="#msg-12">
+          <a>match failed: EQUALS</a>
+      </div>
+      <div id="msg-12" class="collapse collapsable-details  in ">
+        <pre>match failed: EQUALS
+  $ | not equal (NUMBER:NUMBER)
+  100
+  10000000
+
+classpath:Features/getmethodExample.feature:12</pre>
+      </div>
+    </div>
+  </div>
+
+
+        
+        
+  <div class="inner-level">
+    <div class="docstring indention">
+            <div data-toggle="collapse" class="collapsable-control" data-target="#msg-13">
+          <a>Doc string</a>
+      </div>
+      <div id="msg-13" class="collapse collapsable-details">
+        <pre>19:32:28.497 classpath:Features/getmethodExample.feature:12
+* match temp.id == 10000000
+match failed: EQUALS
+  $ | not equal (NUMBER:NUMBER)
+  100
+  10000000
+
+classpath:Features/getmethodExample.feature:12
+</pre>
+      </div>
+    </div>
+  </div>
+
+        
+
+        
+  
+      </div>
+      </div>
+</div>
+
+
+    
+
+  </div>
+</div>
+
+                  
+<div class="element">
+      <div class="indention">
+      <b>Feature:</b>
+      <a href="report-feature_Features-getwithquery-feature_2.html">Features/getwithquery.feature</a>
+    </div>
+  
+  
+<div class="tags indention">
+      <b>Tags:</b>
+           <a href="report-tag_SmokeTest.html">@SmokeTest</a>
+           <a href="report-tag_RegressionTest.html">@RegressionTest</a>
+      </div>
+
+  
+  <span class="lead-duration duration">299ms</span>
+
+
+    <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-14">
+    
+<div class="brief passed">
+  <span class="keyword indention">Scenario</span>
+  <span class="name">Get Details using get method</span>
+  
+
+       <i class="chevron fa fa-fw"></i>
+  </div>
+
+  </span>
+  <div class="description indention"></div>
+
+  <div id="element-14" class="collapse collapsable-details ">
+    
+
+
+    
+<div class="steps inner-level">
+    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-15">
+    
+<div class="brief passed">
+  <span class="keyword indention">Steps</span>
+  <span class="name"></span>
+  
+
+       <i class="chevron fa fa-fw"></i>
+  </div>
+
+  </div>
+
+  <div id="steps-15" class="inner-level collapse collapsable-details ">
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">*</span>
+  <span class="name">def query = {status : 'active' , gender : 'male' }</span>
+  
+  <span class="lead-duration duration">000ms</span>
+
+  </div>
+
+        
+
+
+        
+        
+
+        
+
+        
+  
+      </div>
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">Given</span>
+  <span class="name">url 'https://gorest.co.in/public/v1/users/'</span>
+  
+  <span class="lead-duration duration">000ms</span>
+
+  </div>
+
+        
+
+
+        
+        
+
+        
+
+        
+  
+      </div>
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">And</span>
+  <span class="name">params query</span>
+  
+  <span class="lead-duration duration">001ms</span>
+
+  </div>
+
+        
+
+
+        
+        
+
+        
+
+        
+  
+      </div>
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">When</span>
+  <span class="name">method GET</span>
+  
+  <span class="lead-duration duration">276ms</span>
+
+  </div>
+
+        
+
+
+        
+        
+  <div class="inner-level">
+    <div class="docstring indention">
+            <div data-toggle="collapse" class="collapsable-control" data-target="#msg-16">
+          <a>Doc string</a>
+      </div>
+      <div id="msg-16" class="collapse collapsable-details">
+        <pre>19:32:28.670 request:
+1 &gt; GET https://gorest.co.in/public/v1/users/?gender=male&amp;status=active
+1 &gt; Host: gorest.co.in
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_311)
+1 &gt; Accept-Encoding: gzip,deflate
+
+
+19:32:28.946 response time in milliseconds: 275
+1 &lt; 200
+1 &lt; Date: Wed, 20 Jul 2022 14:02:28 GMT
+1 &lt; Content-Type: application/json; charset=utf-8
+1 &lt; Transfer-Encoding: chunked
+1 &lt; Connection: keep-alive
+1 &lt; Vary: Accept-Encoding
+1 &lt; Vary: Origin
+1 &lt; X-Frame-Options: SAMEORIGIN
+1 &lt; X-XSS-Protection: 0
+1 &lt; X-Content-Type-Options: nosniff
+1 &lt; X-Download-Options: noopen
+1 &lt; X-Permitted-Cross-Domain-Policies: none
+1 &lt; Referrer-Policy: strict-origin-when-cross-origin
+1 &lt; ETag: W/&quot;e9ba41c0991f86e0929931cf0bc4094c&quot;
+1 &lt; Cache-Control: max-age=0, private, must-revalidate
+1 &lt; X-Request-Id: 1a77f61b-59c7-4422-9421-c3555ebde553
+1 &lt; X-Runtime: 0.008346
+1 &lt; Strict-Transport-Security: max-age=63072000; includeSubDomains
+1 &lt; CF-Cache-Status: DYNAMIC
+1 &lt; Expect-CT: max-age=604800, report-uri=&quot;https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct&quot;
+1 &lt; Report-To: {&quot;endpoints&quot;:[{&quot;url&quot;:&quot;https:\/\/a.nel.cloudflare.com\/report\/v3?s=SwmTU6wYlzTmCiVDJ4QVrvzm9KnSMFXvbQBuC2IDx68aViqOnCPeLq%2FHkqZRXw86TO%2ByzptCtUBumBihP3nKgX0QVr23jvEgbkFrbFZxvF6jNk6wpQAWP6fPVXN7eGg%3D&quot;}],&quot;group&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}
+1 &lt; NEL: {&quot;success_fraction&quot;:0,&quot;report_to&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}
+1 &lt; Server: cloudflare
+1 &lt; CF-RAY: 72dc3c163aa42e88-BOM
+1 &lt; alt-svc: h3=&quot;:443&quot;; ma=86400, h3-29=&quot;:443&quot;; ma=86400
+{&quot;meta&quot;:{&quot;pagination&quot;:{&quot;total&quot;:509,&quot;pages&quot;:51,&quot;page&quot;:1,&quot;limit&quot;:10,&quot;links&quot;:{&quot;previous&quot;:null,&quot;current&quot;:&quot;https://gorest.co.in/public/v1/users?page=1&quot;,&quot;next&quot;:&quot;https://gorest.co.in/public/v1/users?page=2&quot;}}},&quot;data&quot;:[{&quot;id&quot;:2277,&quot;name&quot;:&quot;Msgr. Vasanti Panicker&quot;,&quot;email&quot;:&quot;vasanti_panicker_msgr@runolfsdottir-harris.name&quot;,&quot;gender&quot;:&quot;male&quot;,&quot;status&quot;:&quot;active&quot;},{&quot;id&quot;:2276,&quot;name&quot;:&quot;Bhadraksh Saini&quot;,&quot;email&quot;:&quot;bhadraksh_saini@wiza-rippin.info&quot;,&quot;gender&quot;:&quot;male&quot;,&quot;status&quot;:&quot;active&quot;},{&quot;id&quot;:2265,&quot;name&quot;:&quot;Gov. Swami Mukhopadhyay&quot;,&quot;email&quot;:&quot;mukhopadhyay_swami_gov@bernier.biz&quot;,&quot;gender&quot;:&quot;male&quot;,&quot;status&quot;:&quot;active&quot;},{&quot;id&quot;:2263,&quot;name&quot;:&quot;Mr. Anish Nambeesan&quot;,&quot;email&quot;:&quot;anish_nambeesan_mr@thompson-thiel.info&quot;,&quot;gender&quot;:&quot;male&quot;,&quot;status&quot;:&quot;active&quot;},{&quot;id&quot;:2260,&quot;name&quot;:&quot;Anuraag Butt&quot;,&quot;email&quot;:&quot;butt_anuraag@jaskolski.net&quot;,&quot;gender&quot;:&quot;male&quot;,&quot;status&quot;:&quot;active&quot;},{&quot;id&quot;:2255,&quot;name&quot;:&quot;Damayanti Bandopadhyay&quot;,&quot;email&quot;:&quot;bandopadhyay_damayanti@leffler-green.biz&quot;,&quot;gender&quot;:&quot;male&quot;,&quot;status&quot;:&quot;active&quot;},{&quot;id&quot;:2246,&quot;name&quot;:&quot;Vimala Mukhopadhyay&quot;,&quot;email&quot;:&quot;vimala_mukhopadhyay@roob.biz&quot;,&quot;gender&quot;:&quot;male&quot;,&quot;status&quot;:&quot;active&quot;},{&quot;id&quot;:2232,&quot;name&quot;:&quot;Miss Dinesh Bandopadhyay&quot;,&quot;email&quot;:&quot;miss_dinesh_bandopadhyay@daugherty-brekke.com&quot;,&quot;gender&quot;:&quot;male&quot;,&quot;status&quot;:&quot;active&quot;},{&quot;id&quot;:2223,&quot;name&quot;:&quot;Hiranmay Mishra PhD&quot;,&quot;email&quot;:&quot;hiranmay_mishra_phd@olson.io&quot;,&quot;gender&quot;:&quot;male&quot;,&quot;status&quot;:&quot;active&quot;},{&quot;id&quot;:2218,&quot;name&quot;:&quot;Anilaabh Pillai&quot;,&quot;email&quot;:&quot;pillai_anilaabh@roberts-krajcik.io&quot;,&quot;gender&quot;:&quot;male&quot;,&quot;status&quot;:&quot;active&quot;}]}
+
+</pre>
+      </div>
+    </div>
+  </div>
+
+        
+
+        
+  
+      </div>
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">Then</span>
+  <span class="name">status 200</span>
+  
+  <span class="lead-duration duration">000ms</span>
+
+  </div>
+
+        
+
+
+        
+        
+
+        
+
+        
+  
+      </div>
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">*</span>
+  <span class="name">print response</span>
+  
+  <span class="lead-duration duration">014ms</span>
+
+  </div>
+
+        
+
+
+        
+        
+  <div class="inner-level">
+    <div class="docstring indention">
+            <div data-toggle="collapse" class="collapsable-control" data-target="#msg-17">
+          <a>Doc string</a>
+      </div>
+      <div id="msg-17" class="collapse collapsable-details">
+        <pre>19:32:28.964 [print] {
+  &quot;meta&quot;: {
+    &quot;pagination&quot;: {
+      &quot;total&quot;: 509,
+      &quot;pages&quot;: 51,
+      &quot;page&quot;: 1,
+      &quot;limit&quot;: 10,
+      &quot;links&quot;: {
+        &quot;previous&quot;: null,
+        &quot;current&quot;: &quot;https://gorest.co.in/public/v1/users?page=1&quot;,
+        &quot;next&quot;: &quot;https://gorest.co.in/public/v1/users?page=2&quot;
+      }
+    }
+  },
+  &quot;data&quot;: [
+    {
+      &quot;id&quot;: 2277,
+      &quot;name&quot;: &quot;Msgr. Vasanti Panicker&quot;,
+      &quot;email&quot;: &quot;vasanti_panicker_msgr@runolfsdottir-harris.name&quot;,
+      &quot;gender&quot;: &quot;male&quot;,
+      &quot;status&quot;: &quot;active&quot;
+    },
+    {
+      &quot;id&quot;: 2276,
+      &quot;name&quot;: &quot;Bhadraksh Saini&quot;,
+      &quot;email&quot;: &quot;bhadraksh_saini@wiza-rippin.info&quot;,
+      &quot;gender&quot;: &quot;male&quot;,
+      &quot;status&quot;: &quot;active&quot;
+    },
+    {
+      &quot;id&quot;: 2265,
+      &quot;name&quot;: &quot;Gov. Swami Mukhopadhyay&quot;,
+      &quot;email&quot;: &quot;mukhopadhyay_swami_gov@bernier.biz&quot;,
+      &quot;gender&quot;: &quot;male&quot;,
+      &quot;status&quot;: &quot;active&quot;
+    },
+    {
+      &quot;id&quot;: 2263,
+      &quot;name&quot;: &quot;Mr. Anish Nambeesan&quot;,
+      &quot;email&quot;: &quot;anish_nambeesan_mr@thompson-thiel.info&quot;,
+      &quot;gender&quot;: &quot;male&quot;,
+      &quot;status&quot;: &quot;active&quot;
+    },
+    {
+      &quot;id&quot;: 2260,
+      &quot;name&quot;: &quot;Anuraag Butt&quot;,
+      &quot;email&quot;: &quot;butt_anuraag@jaskolski.net&quot;,
+      &quot;gender&quot;: &quot;male&quot;,
+      &quot;status&quot;: &quot;active&quot;
+    },
+    {
+      &quot;id&quot;: 2255,
+      &quot;name&quot;: &quot;Damayanti Bandopadhyay&quot;,
+      &quot;email&quot;: &quot;bandopadhyay_damayanti@leffler-green.biz&quot;,
+      &quot;gender&quot;: &quot;male&quot;,
+      &quot;status&quot;: &quot;active&quot;
+    },
+    {
+      &quot;id&quot;: 2246,
+      &quot;name&quot;: &quot;Vimala Mukhopadhyay&quot;,
+      &quot;email&quot;: &quot;vimala_mukhopadhyay@roob.biz&quot;,
+      &quot;gender&quot;: &quot;male&quot;,
+      &quot;status&quot;: &quot;active&quot;
+    },
+    {
+      &quot;id&quot;: 2232,
+      &quot;name&quot;: &quot;Miss Dinesh Bandopadhyay&quot;,
+      &quot;email&quot;: &quot;miss_dinesh_bandopadhyay@daugherty-brekke.com&quot;,
+      &quot;gender&quot;: &quot;male&quot;,
+      &quot;status&quot;: &quot;active&quot;
+    },
+    {
+      &quot;id&quot;: 2223,
+      &quot;name&quot;: &quot;Hiranmay Mishra PhD&quot;,
+      &quot;email&quot;: &quot;hiranmay_mishra_phd@olson.io&quot;,
+      &quot;gender&quot;: &quot;male&quot;,
+      &quot;status&quot;: &quot;active&quot;
+    },
+    {
+      &quot;id&quot;: 2218,
+      &quot;name&quot;: &quot;Anilaabh Pillai&quot;,
+      &quot;email&quot;: &quot;pillai_anilaabh@roberts-krajcik.io&quot;,
+      &quot;gender&quot;: &quot;male&quot;,
+      &quot;status&quot;: &quot;active&quot;
+    }
+  ]
+}
+ 
+</pre>
+      </div>
+    </div>
+  </div>
+
+        
+
+        
+  
+      </div>
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">*</span>
+  <span class="name">def temp = response</span>
+  
+  <span class="lead-duration duration">000ms</span>
+
+  </div>
+
+        
+
+
+        
+        
+
+        
+
+        
+  
+      </div>
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">*</span>
+  <span class="name">print temp.id</span>
+  
+  <span class="lead-duration duration">001ms</span>
+
+  </div>
+
+        
+
+
+        
+        
+  <div class="inner-level">
+    <div class="docstring indention">
+            <div data-toggle="collapse" class="collapsable-control" data-target="#msg-18">
+          <a>Doc string</a>
+      </div>
+      <div id="msg-18" class="collapse collapsable-details">
+        <pre>19:32:28.964 [print] null 
+</pre>
+      </div>
+    </div>
+  </div>
+
+        
+
+        
+  
+      </div>
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">*</span>
+  <span class="name">def count = temp.data.length</span>
+  
+  <span class="lead-duration duration">001ms</span>
+
+  </div>
+
+        
+
+
+        
+        
+
+        
+
+        
+  
+      </div>
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">*</span>
+  <span class="name">print count</span>
+  
+  <span class="lead-duration duration">001ms</span>
+
+  </div>
+
+        
+
+
+        
+        
+  <div class="inner-level">
+    <div class="docstring indention">
+            <div data-toggle="collapse" class="collapsable-control" data-target="#msg-19">
+          <a>Doc string</a>
+      </div>
+      <div id="msg-19" class="collapse collapsable-details">
+        <pre>19:32:28.964 [print] 10 
+</pre>
+      </div>
+    </div>
+  </div>
+
+        
+
+        
+  
+      </div>
+      </div>
+</div>
+
+
+    
+
+  </div>
+</div>
+
+                  
+<div class="element">
+      <div class="indention">
+      <b>Feature:</b>
+      <a href="report-feature_Features-Sample-feature_5.html">Features/Sample.feature</a>
+    </div>
+  
+  
+<div class="tags indention">
+      <b>Tags:</b>
+           <a href="report-tag_SmokeTest.html">@SmokeTest</a>
+      </div>
+
+  
+  <span class="lead-duration duration">005ms</span>
+
+
+    <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-20">
+    
+<div class="brief passed">
+  <span class="keyword indention">Scenario</span>
+  <span class="name">Declare and print variable</span>
+  
+
+       <i class="chevron fa fa-fw"></i>
+  </div>
+
+  </span>
+  <div class="description indention"></div>
+
+  <div id="element-20" class="collapse collapsable-details ">
+    
+
+
+    
+<div class="steps inner-level">
+    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-21">
+    
+<div class="brief passed">
+  <span class="keyword indention">Steps</span>
+  <span class="name"></span>
+  
+
+       <i class="chevron fa fa-fw"></i>
+  </div>
+
+  </div>
+
+  <div id="steps-21" class="inner-level collapse collapsable-details ">
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">*</span>
+  <span class="name">def balance = 20</span>
+  
+  <span class="lead-duration duration">001ms</span>
+
+  </div>
+
+        
+
+
+        
+        
+
+        
+
+        
+  
+      </div>
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">*</span>
+  <span class="name">def sum = 300</span>
+  
+  <span class="lead-duration duration">001ms</span>
+
+  </div>
+
+        
+
+
+        
+        
+
+        
+
+        
+  
+      </div>
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">*</span>
+  <span class="name">def tax = 250</span>
+  
+  <span class="lead-duration duration">001ms</span>
+
+  </div>
+
+        
+
+
+        
+        
+
+        
+
+        
+  
+      </div>
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">*</span>
+  <span class="name">print 'Total Balance: ' + (balance+sum+tax)</span>
+  
+  <span class="lead-duration duration">001ms</span>
+
+  </div>
+
+        
+
+
+        
+        
+  <div class="inner-level">
+    <div class="docstring indention">
+            <div data-toggle="collapse" class="collapsable-control" data-target="#msg-22">
+          <a>Doc string</a>
+      </div>
+      <div id="msg-22" class="collapse collapsable-details">
+        <pre>19:32:31.204 [print] Total Balance: 570 
+</pre>
+      </div>
+    </div>
+  </div>
+
+        
+
+        
+  
+      </div>
+      </div>
+</div>
+
+
+    
+
+  </div>
+</div>
+
+        
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-md-10 col-md-offset-10">
+      <i class="fa fa-chevron-circle-down fa-2x collapsable-control"
+        onClick="javascript:$('#report .collapsable-details').collapse('show')"></i>
+      <i class="fa fa-chevron-circle-up fa-2x collapsable-control"
+        onClick="javascript:$('#report .collapsable-details').collapse('hide')"></i>
+    </div>
+  </div>
+</div>
+
+<br>
+
+<nav class="navbar navbar-default" id="footer">
+  <div class="container-fluid">
+    <p class="navbar-text navbar-right">
+        <small>generate Cucumber HTML reports via:&nbsp;</small>
+        <a class="navbar-link" href="https://github.com/jenkinsci/cucumber-reports-plugin">Jenkins Plugin</a> |
+        <a class="navbar-link" href="https://github.com/damianszczepanik/cucumber-reporting">Standalone</a> |
+        <a class="navbar-link" href="https://github.com/damianszczepanik/cucumber-sandwich">Sandwich</a> |
+        <a class="navbar-link" href="https://github.com/damianszczepanik/maven-cucumber-reporting">Maven</a>
+        &nbsp;&nbsp;
+    </p>
+  </div>
+</nav>
+
+</body>
+</html>

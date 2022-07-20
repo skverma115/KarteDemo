@@ -7,8 +7,6 @@ import net.masterthought.cucumber.Configuration;
 import net.masterthought.cucumber.ReportBuilder;
 import org.apache.commons.io.FileUtils;
 import org.junit.jupiter.api.Test;
-import org.junit.runner.RunWith;
-
 import java.io.File;
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
@@ -16,18 +14,14 @@ import java.util.ArrayList;
 import java.util.Collection;
 import java.util.Date;
 import java.util.List;
+
 import static org.junit.jupiter.api.Assertions.*;
 
 public class TestRunner {
-    @org.testng.annotations.Test
-    public void runTest()
-    {
-        TestRunner TR = new TestRunner();
-        TR.testParallel();
-    }
+
   @Test
-    public void testParallel() {
-        Results results = Runner.path("classpath:Features/").outputCucumberJson(true).tags("@SmokeTest, @RegressionTest").parallel(1);
+    public void testParallel(String features_file , String tag) {
+        Results results = Runner.path("classpath:Features/" + features_file + ".feature").outputCucumberJson(true).tags(tag).parallel(1);
         generateReport(results.getReportDir());
         assertEquals(0, results.getFailCount(), results.getErrorMessages());
     }
