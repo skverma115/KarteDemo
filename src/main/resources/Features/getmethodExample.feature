@@ -1,5 +1,5 @@
 Feature: get Method Json Example
-  @SmokeTest
+  @SmokeTest @SanityTest
   Scenario: Get Details using get method
 
 Given url 'https://gorest.co.in/public/v2/posts/'

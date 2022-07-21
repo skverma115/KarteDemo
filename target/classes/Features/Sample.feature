@@ -1,11 +1,11 @@
-Feature: print hello world features 
-
+Feature: print hello world features
+	@SmokeTest
 Scenario: Hello World Scenario 
 
 * print 'Hello World' 
 * print 'Hello Sumit Kumar Verma'
 
-	@SmokeTest
+	@SanityTest
 Scenario: Declare and print variable
 	
 	* def balance = 20

@@ -27,7 +27,7 @@ function (s)
 """
 * requestpayload.email = randonString + "@gmail.com"
 * print requestpayload.email
-	@RegressionTest
+	@RegressionTest @SanityTest
 Scenario: Create user using given data 
 * def token = '4cf5a3adc501a506f811309e96c2fe51cb9eac17ff89a755441ed1913f162f87'
 	Given path '/public/v1/users/'

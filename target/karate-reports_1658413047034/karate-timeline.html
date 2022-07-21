@@ -1,0 +1,32 @@
+<!DOCTYPE HTML>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <title>Karate Timeline</title>
+    <style>
+      body, html { font-family: arial, sans-serif; font-size: 11pt; }
+      #visualization { box-sizing: border-box; width: 100%; height: 300px; }
+      .vis-item.failed { background-color: #F2928C; }
+      .page-heading { padding: 0.5em; margin-bottom: 0.5em; background-color: lightcyan; border: 1px solid gray; }
+    </style>
+    <script src="res/vis.min.js"></script>
+    <link href="res/vis.min.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <div class="page-heading">
+      <a href="karate-summary.html">Summary</a>
+    </div>     
+    <div id="visualization"></div>
+    <script>
+var groups = [{"content":"main","id":1}];
+var items = [{"id":1,"group":1,"content":"Features\/Deleteuser[1:31]","start":1658412776786,"end":1658412779907,"title":"Features\/Deleteuser[1:31] 19:42:56.786-19:42:59.907 Create user using given data"},{"id":2,"group":1,"content":"Features\/getmethodExample[1:3]","start":1658412781095,"end":1658412781650,"title":"Features\/getmethodExample[1:3] 19:43:01.095-19:43:01.650 Get Details using get method"},{"id":3,"group":1,"content":"Features\/PostCallDemo[1:31]","start":1658412781877,"end":1658412782196,"title":"Features\/PostCallDemo[1:31] 19:43:01.877-19:43:02.196 Create user using given data"},{"id":4,"group":1,"content":"Features\/putcallupdate[1:31]","start":1658412782347,"end":1658412783201,"title":"Features\/putcallupdate[1:31] 19:43:02.347-19:43:03.201 Create user using given data"},{"id":5,"group":1,"content":"Features\/Sample1[1:4]","start":1658412783346,"end":1658412783345,"title":"Features\/Sample1[1:4] 19:43:03.346-19:43:03.345 Play with json"},{"id":6,"group":1,"content":"Features\/Sample1[2:26]","start":1658412783358,"end":1658412783358,"title":"Features\/Sample1[2:26] 19:43:03.358-19:43:03.358 Complex json example"}];
+</script>
+    <script>
+      var container = document.getElementById('visualization');
+      var timeline = new vis.Timeline(container);
+      timeline.setOptions({groupOrder: 'content'});
+      timeline.setGroups(new vis.DataSet(groups));
+      timeline.setItems(new vis.DataSet(items));
+    </script>
+  </body>
+</html>

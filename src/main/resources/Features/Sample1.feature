@@ -1,7 +1,7 @@
 Feature: Json Object Example
 
-  @AdhocTest
-Scenario: Play with json 
+  @SanityTest
+  Scenario: Play with json
 
 * def jsonObject =
 """

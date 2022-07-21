@@ -1,0 +1,32 @@
+<!DOCTYPE HTML>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <title>Karate Timeline</title>
+    <style>
+      body, html { font-family: arial, sans-serif; font-size: 11pt; }
+      #visualization { box-sizing: border-box; width: 100%; height: 300px; }
+      .vis-item.failed { background-color: #F2928C; }
+      .page-heading { padding: 0.5em; margin-bottom: 0.5em; background-color: lightcyan; border: 1px solid gray; }
+    </style>
+    <script src="res/vis.min.js"></script>
+    <link href="res/vis.min.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <div class="page-heading">
+      <a href="karate-summary.html">Summary</a>
+    </div>     
+    <div id="visualization"></div>
+    <script>
+var groups = [{"content":"main","id":1}];
+var items = [{"id":1,"group":1,"content":"Features\/Deleteuser[1:31]","start":1658407231970,"end":1658407232821,"title":"Features\/Deleteuser[1:31] 18:10:31.970-18:10:32.821 Create user using given data"},{"id":2,"group":1,"content":"Features\/getwithquery[1:3]","start":1658407233557,"end":1658407233847,"title":"Features\/getwithquery[1:3] 18:10:33.557-18:10:33.847 Get Details using get method"},{"id":3,"group":1,"content":"Features\/getmethodExample[1:3]","start":1658407233222,"end":1658407233481,"title":"Features\/getmethodExample[1:3] 18:10:33.222-18:10:33.481 Get Details using get method"},{"id":4,"group":1,"content":"Features\/token[1:3]","start":1658407236472,"end":1658407236772,"title":"Features\/token[1:3] 18:10:36.472-18:10:36.772 Get Details using get method"},{"id":5,"group":1,"content":"Features\/PostCallDemo[1:31]","start":1658407233900,"end":1658407234153,"title":"Features\/PostCallDemo[1:31] 18:10:33.900-18:10:34.153 Create user using given data"},{"id":6,"group":1,"content":"Features\/putcallupdate[1:31]","start":1658407234244,"end":1658407234803,"title":"Features\/putcallupdate[1:31] 18:10:34.244-18:10:34.803 Create user using given data"},{"id":7,"group":1,"content":"Features\/Sample1[1:4]","start":1658407236428,"end":1658407236427,"title":"Features\/Sample1[1:4] 18:10:36.428-18:10:36.427 Play with json"},{"id":8,"group":1,"content":"Features\/Sample1[2:26]","start":1658407236433,"end":1658407236432,"title":"Features\/Sample1[2:26] 18:10:36.433-18:10:36.432 Complex json example"},{"id":9,"group":1,"content":"Features\/Sample[1:3]","start":1658407236158,"end":1658407236157,"title":"Features\/Sample[1:3] 18:10:36.158-18:10:36.157 Hello World Scenario"},{"id":10,"group":1,"content":"Features\/Sample[2:9]","start":1658407236158,"end":1658407236166,"title":"Features\/Sample[2:9] 18:10:36.158-18:10:36.166 Declare and print variable"}];
+</script>
+    <script>
+      var container = document.getElementById('visualization');
+      var timeline = new vis.Timeline(container);
+      timeline.setOptions({groupOrder: 'content'});
+      timeline.setGroups(new vis.DataSet(groups));
+      timeline.setItems(new vis.DataSet(items));
+    </script>
+  </body>
+</html>

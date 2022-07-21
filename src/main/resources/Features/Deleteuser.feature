@@ -27,7 +27,7 @@ function (s)
 """
 * requestpayload.email = randonString + "@gmail.com"
 * print requestpayload.email
-@SmokeTest
+@SmokeTest @SanityTest
 Scenario: Create user using given data 
 
 #Step 1: Create User 
